@@ -1,15 +1,10 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import Hero from "../../components/hero";
-import Portfolio from "../../components/Portafolio";
-
+import Profile from "../../components/profile";
 function Home() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Portfolio />
-      <Footer />
+      <div className="">
+        <Profile />
+      </div>
     </>
   );
 }
