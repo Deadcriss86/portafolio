@@ -18,7 +18,7 @@ function Profile() {
         </div>
 
         {/* Contenido que se colapsa */}
-        <div className="collapse-content flex items-center p-4 bg-gray-800 text-2xl sm:text-3xl xl:h-screen xl:items-start">
+        <div className="collapse-content shadow-2xl flex items-center p-4 bg-gray-800 text-2xl sm:text-3xl xl:h-screen xl:items-start">
           <ul className="list-none p-0">
             <li className="flex items-center space-x-2">
               <FiPhone className="w-5 h-5" />
