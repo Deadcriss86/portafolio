@@ -1,0 +1,34 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Modern Web Design",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/ars.png"
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Platform",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/nexodesk.png"
+    },
+    {
+      "id": 3,
+      "title": "Creative Agency",
+      "image": "https://example.com/images/creative-agency.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Showcase",
+      "image": "https://example.com/images/portfolio-showcase.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Corporate Website",
+      "image": "https://example.com/images/corporate-website.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Blog Platform",
+      "image": "https://example.com/images/blog-platform.jpg"
+    }
+  ]
+}
