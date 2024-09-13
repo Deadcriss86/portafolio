@@ -26,7 +26,7 @@ function Home() {
       <NavBar setSelectedComponent={setSelectedComponent} />
       <div className="flex flex-col xl:flex-row">
         <Profile />
-        <div className="flex xl:flex-col xl:w-3/5">{renderComponent()}</div>
+        <div className="flex xl:flex-col xl:w-8/12">{renderComponent()}</div>
       </div>
     </>
   );

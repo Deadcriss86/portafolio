@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 function Profile() {
   return (
     <>
-      <div className="collapse xl:w-2/5 ">
+      <div className="collapse xl:w-2/6 ">
         <input type="checkbox" />
         <div className="collapse-title bg-gray-800 text-white cursor-pointer p-4 flex flex-row ">
           <img
