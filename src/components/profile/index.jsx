@@ -35,15 +35,15 @@ function Profile() {
           onChange={handleCheckboxChange}
           readOnly={isXLScreen}
         />
-        <div className="collapse-title bg-gray-800 text-white cursor-pointer p-4 flex flex-row ">
+        <div className="collapse-title bg-gray-800 text-white cursor-pointer p-4 flex flex-row xl:flex-col xl:items-center xl:space-y-2 ">
           <img
-            className="h-40 w-40  rounded-full sm:h-60 sm:w-60"
+            className="h-40 w-40  rounded-full sm:h-60 sm:w-60 xl:h-80 xl:w-80 "
             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Profile"
           />
-          <div className="ml-4 pt-4 space-y-2">
-            <h2 className="text-5xl font-bold sm:text-6xl">David M</h2>
-            <p className="text-gray-600 text-3xl sm:text-4xl">Web Developer</p>
+          <div className="ml-4 pt-4 space-y-2 flex flex-col justify-center sm:ml-24 xl:ml-2 xl:p-0 ">
+            <h2 className="text-2xl font-bold sm:text-4xl">David Marroquin</h2>
+            <p className="text-gray-600 text-2xl sm:text-4xl">Web Developer</p>
           </div>
         </div>
 
