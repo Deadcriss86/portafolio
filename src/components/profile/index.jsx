@@ -1,13 +1,43 @@
+import { useEffect, useState } from "react";
 import { FiPhone } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 function Profile() {
+  const [isChecked, setIsChecked] = useState(false);
+  const [isXLScreen, setIsXLScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1440) {
+        setIsChecked(true);
+        setIsXLScreen(true);
+      } else {
+        setIsChecked(false);
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+  const handleCheckboxChange = () => {
+    if (!isXLScreen) {
+      setIsChecked(!isChecked);
+    }
+  };
   return (
     <>
       <div className="collapse xl:w-2/6 ">
-        <input type="checkbox" />
+        <input
+          type="checkbox"
+          checked={isChecked}
+          onChange={handleCheckboxChange}
+          readOnly={isXLScreen}
+        />
         <div className="collapse-title bg-gray-800 text-white cursor-pointer p-4 flex flex-row ">
           <img
-            className="h-40 w-40 rounded-xl sm:h-60 sm:w-60"
+            className="h-40 w-40  rounded-full sm:h-60 sm:w-60"
             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Profile"
           />
