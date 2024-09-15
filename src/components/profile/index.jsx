@@ -41,14 +41,18 @@ function Profile() {
             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Profile"
           />
-          <div className="ml-4 pt-4 space-y-2 flex flex-col justify-center sm:ml-24 xl:ml-2 xl:p-0 ">
-            <h2 className="text-2xl font-bold sm:text-4xl">David Marroquin</h2>
-            <p className="text-gray-600 text-2xl sm:text-4xl">Web Developer</p>
+          <div className=" pt-4 space-y-2 px-4 flex flex-col justify-center sm:ml-24 xl:ml-2 xl:p-0 ">
+            <h2 className="text-lg font-bold sm:text-4xl text-center">
+              David Marroquin
+            </h2>
+            <p className="text-gray-600 text-sm text-center sm:text-2xl">
+              Web Developer
+            </p>
           </div>
         </div>
 
         {/* Contenido que se colapsa */}
-        <div className="collapse-content shadow-2xl flex items-center p-4 bg-gray-800 text-2xl sm:text-3xl xl:h-screen xl:items-start">
+        <div className="collapse-content shadow-2xl flex items-center p-4 bg-gray-800 text-lg sm:text-3xl xl:h-screen xl:items-start">
           <ul className="list-none p-0">
             <li className="flex items-center space-x-2">
               <FiPhone className="w-5 h-5" />

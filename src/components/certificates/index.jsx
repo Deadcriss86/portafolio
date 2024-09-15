@@ -1,5 +1,4 @@
 import certificatesData from "../../jsons/certificate.json";
-import { Link } from "react-router-dom";
 function Certificates() {
   return (
     <>
@@ -15,11 +14,6 @@ function Certificates() {
             <div className="card-body">
               <h2 className="card-title">{item.title}</h2>
               <p>{item.description}</p>
-              <div className="card-actions justify-end">
-                <Link to={item.link}>
-                  <button className="btn btn-primary">ir</button>
-                </Link>
-              </div>
             </div>
           </div>
         ))}
