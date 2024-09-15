@@ -20,6 +20,12 @@ function NavBar({ setSelectedComponent }) {
         >
           Portafolio
         </button>
+        <button
+          onClick={() => setSelectedComponent("certificates")}
+          className="btn btn-ghost text-xl hover:text-white"
+        >
+          certificates
+        </button>
       </div>
     </>
   );

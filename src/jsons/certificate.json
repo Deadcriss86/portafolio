@@ -1,0 +1,46 @@
+{
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Modern Web Design",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/ars.png",
+      "description": "A clean and modern design for a web-based application, focusing on user experience and aesthetics.",
+      "link": "https://example.com/modern-web-design"
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Platform",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/nexodesk.png",
+      "description": "A scalable e-commerce platform with secure payment integration and responsive design.",
+      "link": "https://example.com/e-commerce-platform"
+    },
+    {
+      "id": 3,
+      "title": "Creative Agency",
+      "image": "https://example.com/images/creative-agency.jpg",
+      "description": "A vibrant and creative agency website with a focus on showcasing portfolio projects.",
+      "link": "https://example.com/creative-agency"
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Showcase",
+      "image": "https://example.com/images/portfolio-showcase.jpg",
+      "description": "A showcase of personal and professional projects in a clean and responsive layout.",
+      "link": "https://example.com/portfolio-showcase"
+    },
+    {
+      "id": 5,
+      "title": "Corporate Website",
+      "image": "https://example.com/images/corporate-website.jpg",
+      "description": "A professional website designed for corporate needs, with an emphasis on branding and content.",
+      "link": "https://example.com/corporate-website"
+    },
+    {
+      "id": 6,
+      "title": "Blog Platform",
+      "image": "https://example.com/images/blog-platform.jpg",
+      "description": "A content-rich blog platform with features for multi-author support and social media integration.",
+      "link": "https://example.com/blog-platform"
+    }
+  ]
+}

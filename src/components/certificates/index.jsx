@@ -1,10 +1,10 @@
+import certificatesData from "../../jsons/certificate.json";
 import { Link } from "react-router-dom";
-import portfolioData from "../../jsons/items.json";
-function Portafolio() {
+function Certificates() {
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mx-4">
-        {portfolioData.portfolio.map((item) => (
+        {certificatesData.certificates.map((item) => (
           <div
             key={item.id}
             className="card bg-base-100 w-full xl:w-full shadow-xl"
@@ -27,4 +27,5 @@ function Portafolio() {
     </>
   );
 }
-export default Portafolio;
+
+export default Certificates;
