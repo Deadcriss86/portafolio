@@ -20,7 +20,7 @@ const Resume = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 text-white">
       {/* Sección de Educación */}
-      <h2 className="text-3xl font-bold mb-6">Education</h2>
+      <h2 className="text-3xl font-bold mb-6">Formación Académica</h2>
       <div className="space-y-8">
         {/* Universidad Valle del Grijalva */}
         <div className="relative">
@@ -33,8 +33,12 @@ const Resume = () => {
               </h3>
               <span className="text-yellow-500">2019 — 2022</span>
               <p className="text-gray-300 mt-2">
-                Nemo enim ipsam voluptatem, blanditiis praesentium voluptatum
-                delenit atque corrupti, quos dolores et quas molestias exceptur.
+                Graduado en Ingeniería en Sistemas Computacionales, adquirí un
+                conocimiento profundo en el desarrollo de software, gestión de
+                redes y mantenimiento de infraestructura tecnológica. Mi
+                formación técnica me permitió desarrollar habilidades en
+                programación, optimización de sistemas y diseño de soluciones
+                eficientes.
               </p>
             </div>
           </div>
@@ -49,8 +53,11 @@ const Resume = () => {
               <h3 className="text-xl font-semibold">Kodemia.mx</h3>
               <span className="text-yellow-500">2023 — 2024</span>
               <p className="text-gray-300 mt-2">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda
-                ossimus, omnis voluptas assumenda est omnis.
+                Programa intensivo de Full Stack Development. Aquí consolidé mi
+                experiencia en desarrollo web, trabajando con tecnologías como
+                React, Node.js, MongoDB y MySQL, creando aplicaciones completas
+                desde el front-end hasta el back-end, con un enfoque en
+                soluciones escalables y mantenibles.
               </p>
             </div>
           </div>
@@ -65,16 +72,17 @@ const Resume = () => {
               <h3 className="text-xl font-semibold">Harmon Hall</h3>
               <span className="text-yellow-500">2023 — 2024</span>
               <p className="text-gray-300 mt-2">
-                Duis aute irure dolor in reprehenderit in voluptate, quila
-                voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+                Estudiante de inglés en nivel B2, mejorando mis habilidades de
+                comunicación para proyectos internacionales y colaboraciones con
+                equipos multiculturales.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Sección de Trabajos */}
-      <h2 className="text-3xl font-bold mb-6 mt-12">Jobs</h2>
+      {/* Sección de Experiencia Profesional */}
+      <h2 className="text-3xl font-bold mb-6 mt-12">Experiencia Profesional</h2>
       <div className="space-y-8">
         {/* Ingenio Azucarero de Huixtla */}
         <div className="relative">
@@ -87,8 +95,10 @@ const Resume = () => {
               </h3>
               <span className="text-yellow-500">2018 — 2019</span>
               <p className="text-gray-300 mt-2">
-                Duis aute irure dolor in reprehenderit in voluptate, quila
-                voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+                Responsable del mantenimiento de equipos de cómputo y gestión de
+                redes. Lideré proyectos de optimización tecnológica, incluyendo
+                la actualización y el mantenimiento de la página web
+                corporativa, asegurando su rendimiento y seguridad.
               </p>
             </div>
           </div>
@@ -105,8 +115,10 @@ const Resume = () => {
               </h3>
               <span className="text-yellow-500">2019 — 2020</span>
               <p className="text-gray-300 mt-2">
-                Duis aute irure dolor in reprehenderit in voluptate, quila
-                voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+                Encargado del mantenimiento y ensamble de equipos de cómputo,
+                así como de la gestión de redes y soporte técnico. Contribuí a
+                la creación y mantenimiento del sitio web institucional,
+                mejorando su funcionalidad y accesibilidad.
               </p>
             </div>
           </div>
@@ -121,8 +133,10 @@ const Resume = () => {
               <h3 className="text-xl font-semibold">Protección Civil Tuxtla</h3>
               <span className="text-yellow-500">2022 — 2023</span>
               <p className="text-gray-300 mt-2">
-                Duis aute irure dolor in reprehenderit in voluptate, quila
-                voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+                Especialista en equipos de alta gama, redes y cableado
+                estructurado. Implementé soluciones web utilizando HTML, CSS y
+                React, y participé en la creación de contenido de streaming para
+                difusión de información de emergencia.
               </p>
             </div>
           </div>
@@ -137,8 +151,10 @@ const Resume = () => {
               <h3 className="text-xl font-semibold">Nexodesk</h3>
               <span className="text-yellow-500">2023 — 2024</span>
               <p className="text-gray-300 mt-2">
-                Duis aute irure dolor in reprehenderit in voluptate, quila
-                voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+                Desarrollador web Full Stack. Mantenimiento y creación de
+                páginas utilizando React, Vite y Tailwind CSS. También gestioné
+                la creación de APIs con bases de datos MySQL, asegurando la
+                eficiencia y escalabilidad de las aplicaciones.
               </p>
             </div>
           </div>
@@ -146,7 +162,7 @@ const Resume = () => {
       </div>
 
       {/* Sección de Habilidades */}
-      <h2 className="text-3xl font-bold mb-6 mt-12">Skills</h2>
+      <h2 className="text-3xl font-bold mb-6 mt-12">Habilidades</h2>
       <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-gray-300">
         <li className="flex items-center">
           <FaHtml5 className="text-red-500 mr-2" /> HTML
@@ -186,9 +202,6 @@ const Resume = () => {
         </li>
         <li className="flex items-center">
           <SiExpress className="text-gray-500 mr-2" /> Express.js
-        </li>
-        <li className="flex items-center">
-          <FaNetworkWired className="text-teal-500 mr-2" /> REST API
         </li>
       </ul>
     </div>
