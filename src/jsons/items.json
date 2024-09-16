@@ -2,30 +2,30 @@
   "portfolio": [
     {
       "id": 1,
-      "title": "e commerce",
+      "title": "E-commerce",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/ars.png",
-      "description": "A clean and modern design for a web-based application, focusing on user experience and aesthetics.",
+      "description": "Plataforma de comercio electrónico centrada en la experiencia de usuario y diseño moderno con integración de pagos seguros y diseño responsivo.",
       "link": "https://store-motocicle-six.vercel.app"
     },
     {
       "id": 2,
       "title": "Nexodesk",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/nexodesk.png",
-      "description": "A scalable e-commerce platform with secure payment integration and responsive design.",
+      "description": "Sitio web escalable para la compañia de nexodesk, integrando la seccion de blogs y mas.",
       "link": "https://store-motocicle-six.vercel.app"
     },
     {
       "id": 3,
-      "title": "Api with mysql",
+      "title": "API with MySQL",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/api-sql.png",
-      "description": "A vibrant and creative agency website with a focus on showcasing portfolio projects.",
+      "description": "API basada en MySQL para gestionar datos de forma eficiente en aplicaciones web.",
       "link": "https://example.com/creative-agency"
     },
     {
       "id": 4,
-      "title": "Api with Mongodb",
+      "title": "API with MongoDB",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/api-mongo.png",
-      "description": "A showcase of personal and professional projects in a clean and responsive layout.",
+      "description": "API diseñada con MongoDB, enfocada en proyectos flexibles y escalables.",
       "link": "https://example.com/portfolio-showcase"
     }
   ]
