@@ -3,7 +3,7 @@ function About() {
     <div className="text-white space-y-4 px-4 xl:ml-4">
       <h2 className="text-2xl sm:text-3xl xl:text-5xl font-bold">Sobre mí</h2>
       <p className="text-lg sm:text-xl xl:text-2xl leading-relaxed">
-        Soy graduada en Ingeniería en Sistemas Computacionales por la
+        Soy graduado en Ingeniería en Sistemas Computacionales por la
         Universidad Valle del Grijalva, además de estudiante de inglés en Harmon
         Hall. También me formé como Full Stack Developer Jr. en el bootcamp de{" "}
         <a
