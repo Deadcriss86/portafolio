@@ -4,43 +4,55 @@
       "id": 1,
       "title": "Full stack developer",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/full-stack.png",
-      "description": "Certificación en desarrollo full stack, abarcando tanto front-end como back-end.",
-      "link": "https://example.com/modern-web-design"
+      "description": "Certificación en desarrollo full stack, abarcando tanto front-end como back-end."
     },
     {
       "id": 2,
       "title": "HTML and CSS",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/html-css.png",
-      "description": "Certificación en desarrollo web con HTML5 y CSS3, enfocada en la creación de sitios web responsivos.",
-      "link": "https://example.com/e-commerce-platform"
+      "description": "Certificación en desarrollo web con HTML5 y CSS3, enfocada en la creación de sitios web responsivos."
     },
     {
       "id": 3,
       "title": "Diseño web con CSS Grid y Flexbox",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/flexbox.png",
-      "description": "Certificación en diseño avanzado utilizando CSS Grid y Flexbox para layouts flexibles y dinámicos.",
-      "link": "https://example.com/creative-agency"
+      "description": "Certificación en diseño avanzado utilizando CSS Grid y Flexbox para layouts flexibles y dinámicos."
     },
     {
       "id": 4,
       "title": "CSS Grid Layout",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/css-grid.png",
-      "description": "Especialización en la creación de layouts con CSS Grid, optimizando el diseño web responsivo.",
-      "link": "https://example.com/portfolio-showcase"
+      "description": "Especialización en la creación de layouts con CSS Grid, optimizando el diseño web responsivo."
     },
     {
       "id": 5,
       "title": "Algoritmos y diagramas de flujo",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/algoritmos.png",
-      "description": "Certificación en la creación de algoritmos y diagramas de flujo para la solución de problemas.",
-      "link": "https://example.com/corporate-website"
+      "description": "Certificación en la creación de algoritmos y diagramas de flujo para la solución de problemas."
     },
     {
       "id": 6,
       "title": "Prework configuración de entorno",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/prework.png",
-      "description": "Curso introductorio para la configuración de entornos de desarrollo profesional.",
-      "link": "https://example.com/blog-platform"
+      "description": "Curso introductorio para la configuración de entornos de desarrollo profesional."
+    },
+    {
+      "id": 7,
+      "title": "Certificación en Excel Intermedio",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/excel-intermedio.png",
+      "description": "Certificado que acredita habilidades intermedias en el manejo de Excel, incluyendo funciones avanzadas de análisis y gestión de datos."
+    },
+    {
+      "id": 8,
+      "title": "Certificación en Excel Avanzado",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/excel-avanzado.png",
+      "description": "Certificado que demuestra dominio avanzado de Excel, abarcando automatización de tareas mediante macros y análisis avanzado de datos."
+    },
+    {
+      "id": 9,
+      "title": "Participación en el Equipo de Desarrollo de Nexodesk",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/nexodesk.png",
+      "description": "Reconocimiento por mi colaboración en el equipo de desarrollo de Nexodesk, contribuyendo en proyectos de software y desarrollo web con tecnologías modernas."
     }
   ]
 }
