@@ -26,7 +26,7 @@ const Resume = () => {
         <div className="relative">
           <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
           <div className="ml-8 flex items-start">
-            <FaUniversity className="text-yellow-500 mr-3 mt-1" size={24} />
+            <FaUniversity className="text-yellow-500 mr-3 mt-1" size={40} />
             <div>
               <h3 className="text-xl font-semibold">
                 Universidad Valle del Grijalva
@@ -48,7 +48,7 @@ const Resume = () => {
         <div className="relative">
           <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
           <div className="ml-8 flex items-start">
-            <FaUniversity className="text-yellow-500 mr-3 mt-1" size={24} />
+            <FaUniversity className="text-yellow-500 mr-3 mt-1" size={40} />
             <div>
               <h3 className="text-xl font-semibold">Kodemia.mx</h3>
               <span className="text-yellow-500">2023 — 2024</span>
@@ -67,7 +67,7 @@ const Resume = () => {
         <div className="relative">
           <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
           <div className="ml-8 flex items-start">
-            <FaUniversity className="text-yellow-500 mr-3 mt-1" size={24} />
+            <FaUniversity className="text-yellow-500 mr-3 mt-1" size={40} />
             <div>
               <h3 className="text-xl font-semibold">Harmon Hall</h3>
               <span className="text-yellow-500">2023 — 2024</span>
@@ -88,7 +88,7 @@ const Resume = () => {
         <div className="relative">
           <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
           <div className="ml-8 flex items-start">
-            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={24} />
+            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={40} />
             <div>
               <h3 className="text-xl font-semibold">
                 Ingenio Azucarero de Huixtla
@@ -108,7 +108,7 @@ const Resume = () => {
         <div className="relative">
           <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
           <div className="ml-8 flex items-start">
-            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={24} />
+            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={40} />
             <div>
               <h3 className="text-xl font-semibold">
                 Protección Civil Huixtla
@@ -128,7 +128,7 @@ const Resume = () => {
         <div className="relative">
           <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
           <div className="ml-8 flex items-start">
-            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={24} />
+            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={40} />
             <div>
               <h3 className="text-xl font-semibold">Protección Civil Tuxtla</h3>
               <span className="text-yellow-500">2022 — 2023</span>
@@ -146,7 +146,7 @@ const Resume = () => {
         <div className="relative">
           <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
           <div className="ml-8 flex items-start">
-            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={24} />
+            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={40} />
             <div>
               <h3 className="text-xl font-semibold">Nexodesk</h3>
               <span className="text-yellow-500">2023 — 2024</span>
@@ -165,43 +165,43 @@ const Resume = () => {
       <h2 className="text-3xl font-bold mb-6 mt-12">Habilidades</h2>
       <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-gray-300">
         <li className="flex items-center">
-          <FaHtml5 className="text-red-500 mr-2" /> HTML
+          <FaHtml5 className="text-red-500 mr-2" size={30} /> HTML
         </li>
         <li className="flex items-center">
-          <FaCss3Alt className="text-blue-500 mr-2" /> CSS
+          <FaCss3Alt className="text-blue-500 mr-2" size={30} /> CSS
         </li>
         <li className="flex items-center">
-          <FaJsSquare className="text-yellow-500 mr-2" /> JavaScript
+          <FaJsSquare className="text-yellow-500 mr-2" size={30} /> JavaScript
         </li>
         <li className="flex items-center">
-          <FaGitAlt className="text-orange-500 mr-2" /> Git - GitHub
+          <FaGitAlt className="text-orange-500 mr-2" size={30} /> Git - GitHub
         </li>
         <li className="flex items-center">
-          <FaBootstrap className="text-purple-500 mr-2" /> Bootstrap
+          <FaBootstrap className="text-purple-500 mr-2" size={30} /> Bootstrap
         </li>
         <li className="flex items-center">
-          <SiTailwindcss className="text-teal-500 mr-2" /> TailwindCSS
+          <SiTailwindcss className="text-teal-500 mr-2" size={30} /> TailwindCSS
         </li>
         <li className="flex items-center">
-          <FaReact className="text-cyan-500 mr-2" /> React
+          <FaReact className="text-cyan-500 mr-2" size={30} /> React
         </li>
         <li className="flex items-center">
-          <FaNodeJs className="text-green-500 mr-2" /> Node.js
+          <FaNodeJs className="text-green-500 mr-2" size={30} /> Node.js
         </li>
         <li className="flex items-center">
-          <SiMysql className="text-blue-500 mr-2" /> MySQL
+          <SiMysql className="text-blue-500 mr-2" size={30} /> MySQL
         </li>
         <li className="flex items-center">
-          <SiMongodb className="text-green-500 mr-2" /> MongoDB
+          <SiMongodb className="text-green-500 mr-2" size={30} /> MongoDB
         </li>
         <li className="flex items-center">
-          <FaSass className="text-pink-500 mr-2" /> Sass
+          <FaSass className="text-pink-500 mr-2" size={30} /> Sass
         </li>
         <li className="flex items-center">
-          <FaLinux className="text-gray-500 mr-2" /> Linux
+          <FaLinux className="text-gray-500 mr-2" size={30} /> Linux
         </li>
         <li className="flex items-center">
-          <SiExpress className="text-gray-500 mr-2" /> Express.js
+          <SiExpress className="text-gray-500 mr-2" size={30} /> Express.js
         </li>
       </ul>
     </div>

@@ -19,14 +19,14 @@
       "title": "API with MySQL",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/api-sql.png",
       "description": "API basada en MySQL para gestionar datos de forma eficiente en aplicaciones web.",
-      "link": "https://example.com/creative-agency"
+      "link": "https://github.com/Deadcriss86/api-mysql-test"
     },
     {
       "id": 4,
       "title": "API with MongoDB",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/api-mongo.png",
       "description": "API diseñada con MongoDB, enfocada en proyectos flexibles y escalables.",
-      "link": "https://example.com/portfolio-showcase"
+      "link": "https://github.com/Deadcriss86/motocicle-mongoApi"
     }
   ]
 }
