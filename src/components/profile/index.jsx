@@ -79,19 +79,36 @@ function Profile() {
           <ul className="list-none space-y-4">
             <li className="flex items-center space-x-2">
               <FiPhone className="w-5 h-5 text-white" />
-              <span className="text-gray-300">: 9613423856</span>
+              <a href="https://wa.me/529613423856" className="text-gray-300">
+                WhatsApp: +529613423856
+              </a>
             </li>
             <li className="flex items-center space-x-2">
               <MdEmail className="w-5 h-5 text-white" />
-              <span className="text-gray-300">: nightvariedades@gmail.com</span>
+              <a
+                href="mailto:nightvariedades@gmail.com"
+                className="text-gray-300"
+              >
+                Correo: nightvariedades@gmail.com
+              </a>
             </li>
             <li className="flex items-center space-x-2">
               <FaGithub className="w-5 h-5 text-white" />
-              <span className="text-gray-300">: DeadCriss86</span>
+              <a
+                href="https://github.com/DeadCriss86"
+                className="text-gray-300"
+              >
+                GitHub: DeadCriss86
+              </a>
             </li>
             <li className="flex items-center space-x-2">
               <FaLinkedin className="w-5 h-5 text-white" />
-              <span className="text-gray-300">: David Marroquin Tamayo</span>
+              <a
+                href="https://www.linkedin.com/in/david-marroquin86/"
+                className="text-gray-300"
+              >
+                LinkedIn: David Marroquin Tamayo
+              </a>
             </li>
           </ul>
         </div>

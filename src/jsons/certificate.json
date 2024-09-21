@@ -8,9 +8,9 @@
     },
     {
       "id": 2,
-      "title": "HTML and CSS",
-      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/html-css.png",
-      "description": "Certificación en desarrollo web con HTML5 y CSS3, enfocada en la creación de sitios web responsivos."
+      "title": "Participación en el Equipo de Desarrollo de Nexodesk",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/nexodesk.png",
+      "description": "Reconocimiento por mi colaboración en el equipo de desarrollo de Nexodesk, contribuyendo en proyectos de software y desarrollo web con tecnologías modernas."
     },
     {
       "id": 3,
@@ -50,9 +50,9 @@
     },
     {
       "id": 9,
-      "title": "Participación en el Equipo de Desarrollo de Nexodesk",
-      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/nexodesk.png",
-      "description": "Reconocimiento por mi colaboración en el equipo de desarrollo de Nexodesk, contribuyendo en proyectos de software y desarrollo web con tecnologías modernas."
+      "title": "HTML and CSS",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/html-css.png",
+      "description": "Certificación en desarrollo web con HTML5 y CSS3, enfocada en la creación de sitios web responsivos."
     }
   ]
 }
