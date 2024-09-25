@@ -6,13 +6,13 @@ function NavBar({ setSelectedComponent }) {
           onClick={() => setSelectedComponent("about")}
           className="btn btn-ghost text-sm sm:text-xl xl:text-2xl hover:text-white"
         >
-          About
+          Sobre mi
         </button>
         <button
           onClick={() => setSelectedComponent("resume")}
           className="btn btn-ghost text-sm sm:text-xl xl:text-2xl hover:text-white"
         >
-          Resume
+          Resumen
         </button>
         <button
           onClick={() => setSelectedComponent("portafolio")}
@@ -24,7 +24,7 @@ function NavBar({ setSelectedComponent }) {
           onClick={() => setSelectedComponent("certificates")}
           className="btn btn-ghost text-sm sm:text-xl xl:text-2xl hover:text-white"
         >
-          certificates
+          Certificados
         </button>
       </div>
     </>
