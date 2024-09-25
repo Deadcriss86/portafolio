@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Full stack developer",
-      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/full-stack.png",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/bootcamp.png",
       "description": "Certificación en desarrollo full stack, abarcando tanto front-end como back-end."
     },
     {
@@ -14,42 +14,48 @@
     },
     {
       "id": 3,
+      "title": "Full stack developer",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/full-stack.png",
+      "description": "Diploma en desarrollo full stack, abarcando tanto front-end como back-end."
+    },
+    {
+      "id": 4,
       "title": "Diseño web con CSS Grid y Flexbox",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/flexbox.png",
       "description": "Certificación en diseño avanzado utilizando CSS Grid y Flexbox para layouts flexibles y dinámicos."
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "CSS Grid Layout",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/css-grid.png",
       "description": "Especialización en la creación de layouts con CSS Grid, optimizando el diseño web responsivo."
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Algoritmos y diagramas de flujo",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/algoritmos.png",
       "description": "Certificación en la creación de algoritmos y diagramas de flujo para la solución de problemas."
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Prework configuración de entorno",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/prework.png",
       "description": "Curso introductorio para la configuración de entornos de desarrollo profesional."
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Certificación en Excel Intermedio",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/excel-intermedio.png",
       "description": "Certificado que acredita habilidades intermedias en el manejo de Excel, incluyendo funciones avanzadas de análisis y gestión de datos."
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Certificación en Excel Avanzado",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/excel-avanzado.png",
       "description": "Certificado que demuestra dominio avanzado de Excel, abarcando automatización de tareas mediante macros y análisis avanzado de datos."
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "HTML and CSS",
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/certificates/html-css.png",
       "description": "Certificación en desarrollo web con HTML5 y CSS3, enfocada en la creación de sitios web responsivos."
