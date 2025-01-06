@@ -43,7 +43,7 @@ function Profile() {
           {/* Imagen del perfil */}
           <img
             className="h-40 w-40 rounded-full sm:h-60 sm:w-60 xl:h-80 xl:w-80"
-            src="https://media.licdn.com/dms/image/v2/D4E03AQEQ1WxkK1qRFA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713940732786?e=1732147200&v=beta&t=Jn8kSnXxUBvvGkNBJ2jrF_B_dSj2dMaMeGTwv3Huoes"
+            src="https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/IMG-20231130-WA0032.jpg"
             alt="Profile"
           />
 
