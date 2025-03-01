@@ -27,6 +27,27 @@
       "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/api-mongo.png",
       "description": "API diseñada con MongoDB, enfocada en proyectos flexibles y escalables.",
       "link": "https://github.com/Deadcriss86/motocicle-mongoApi"
+    },
+    {
+      "id": 5,
+      "title": "Pagina Grupo Urbania",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/urbania.png",
+      "description": "Una pagina para el grupo urbania, para la gestion de proyectos de obra y tiempos",
+      "link": "https://proyect-time.vercel.app"
+    },
+    {
+      "id": 6,
+      "title": "API with MongoDB Grupo Urbania",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/urbaniaapi.png",
+      "description": "API diseñada con MongoDB, enfocada en proyectos flexibles y escalables creada para el grupo urbania.",
+      "link": "https://github.com/curcomil/urbaniaserver"
+    },
+    {
+      "id": 7,
+      "title": "Pagina creada con wix, para alianza espiritual gnostica",
+      "image": "https://avatarmotoapi.s3.us-east-2.amazonaws.com/images/alianza.png",
+      "description": "Pagina de la iglesia alianza espiritual gnostica, creada en wix",
+      "link": "https://www.alianzaespiritualgnostica.org/"
     }
   ]
 }
