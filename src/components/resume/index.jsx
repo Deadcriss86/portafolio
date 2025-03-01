@@ -1,7 +1,4 @@
-import React from "react";
 import {
-  FaUniversity,
-  FaBriefcase,
   FaHtml5,
   FaCss3Alt,
   FaJsSquare,
@@ -9,12 +6,28 @@ import {
   FaBootstrap,
   FaReact,
   FaNodeJs,
-  FaDatabase,
   FaSass,
   FaLinux,
-  FaNetworkWired,
+  FaUniversity,
+  FaBriefcase,
 } from "react-icons/fa";
-import { SiTailwindcss, SiMysql, SiMongodb, SiExpress } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiMysql,
+  SiMongodb,
+  SiExpress,
+  SiTypescript,
+  SiRedux,
+  SiWordpress,
+  SiWix,
+  SiFigma,
+  SiJirasoftware,
+  SiCsharp,
+  SiCplusplus,
+  SiMicrosoftteams,
+  SiVirtualbox,
+} from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Resume = () => {
   return (
@@ -159,6 +172,23 @@ const Resume = () => {
             </div>
           </div>
         </div>
+
+        <div className="relative">
+          <div className="absolute left-0 top-2.5 w-1 h-full bg-gray-500"></div>
+          <div className="ml-8 flex items-start">
+            <FaBriefcase className="text-yellow-500 mr-3 mt-1" size={40} />
+            <div>
+              <h3 className="text-xl font-semibold">Grupo Urbania</h3>
+              <span className="text-yellow-500">2024 — 2025</span>
+              <p className="text-gray-300 mt-2">
+                Desarrollador web Full Stack. Mantenimiento y creación de
+                páginas utilizando React, Vite y Tailwind CSS. También gestioné
+                la creación de APIs con bases de datos en Mongodb, asegurando la
+                eficiencia y escalabilidad de las aplicaciones.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Sección de Habilidades */}
@@ -174,6 +204,9 @@ const Resume = () => {
           <FaJsSquare className="text-yellow-500 mr-2" size={30} /> JavaScript
         </li>
         <li className="flex items-center">
+          <SiTypescript className="text-blue-600 mr-2" size={30} /> TypeScript
+        </li>
+        <li className="flex items-center">
           <FaGitAlt className="text-orange-500 mr-2" size={30} /> Git - GitHub
         </li>
         <li className="flex items-center">
@@ -186,7 +219,13 @@ const Resume = () => {
           <FaReact className="text-cyan-500 mr-2" size={30} /> React
         </li>
         <li className="flex items-center">
+          <TbBrandNextjs className="text-black mr-2" size={30} /> Next.js
+        </li>
+        <li className="flex items-center">
           <FaNodeJs className="text-green-500 mr-2" size={30} /> Node.js
+        </li>
+        <li className="flex items-center">
+          <SiExpress className="text-gray-500 mr-2" size={30} /> Express.js
         </li>
         <li className="flex items-center">
           <SiMysql className="text-blue-500 mr-2" size={30} /> MySQL
@@ -195,13 +234,39 @@ const Resume = () => {
           <SiMongodb className="text-green-500 mr-2" size={30} /> MongoDB
         </li>
         <li className="flex items-center">
+          <SiRedux className="text-purple-600 mr-2" size={30} /> Redux
+        </li>
+        <li className="flex items-center">
           <FaSass className="text-pink-500 mr-2" size={30} /> Sass
         </li>
         <li className="flex items-center">
           <FaLinux className="text-gray-500 mr-2" size={30} /> Linux
         </li>
+
         <li className="flex items-center">
-          <SiExpress className="text-gray-500 mr-2" size={30} /> Express.js
+          <SiWordpress className="text-blue-600 mr-2" size={30} /> WordPress
+        </li>
+        <li className="flex items-center">
+          <SiWix className="text-gray-500 mr-2" size={30} /> Wix
+        </li>
+        <li className="flex items-center">
+          <SiFigma className="text-purple-500 mr-2" size={30} /> Figma
+        </li>
+        <li className="flex items-center">
+          <SiJirasoftware className="text-blue-600 mr-2" size={30} /> Jira
+        </li>
+        <li className="flex items-center">
+          <SiCsharp className="text-blue-500 mr-2" size={30} /> C#
+        </li>
+        <li className="flex items-center">
+          <SiCplusplus className="text-blue-700 mr-2" size={30} /> C++
+        </li>
+        <li className="flex items-center">
+          <SiMicrosoftteams className="text-blue-500 mr-2" size={30} />{" "}
+          Microsoft Teams
+        </li>
+        <li className="flex items-center">
+          <SiVirtualbox className="text-gray-500 mr-2" size={30} /> VirtualBox
         </li>
       </ul>
     </div>
